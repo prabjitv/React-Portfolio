@@ -21,4 +21,4 @@ You can see an animated gif of the deployed app here __[this link](https://drive
 ## Questions: 
 For any questions, please contact:
 
-__[Prabjit Virdee](https://github.com/CrainDavis)__ at prabjitv@gmail.com
+__[Prabjit Virdee](https://github.com/prabjitv)__ at prabjitv@gmail.com
