@@ -1,5 +1,5 @@
 # Employee Directory
-  ![GitHub repo size](https://img.shields.io/github/repo-size/prabjitv/React-Portfolio?style=for-the-badge) ![GitHub code size](https://img.shields.io/github/languages/code-size/prabjitv/React-Portfolio?color=gold&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/prabjitv/React-Portfolio?color=green&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/prabjitv/React-Portfolio?color=red&style=for-the-badge)
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/eb36a850-3ab5-4400-b1cb-3193894509a5/deploy-status)](https://app.netlify.com/sites/prabjit/deploys) ![GitHub repo size](https://img.shields.io/github/repo-size/prabjitv/React-Portfolio?style=for-the-badge) ![GitHub code size](https://img.shields.io/github/languages/code-size/prabjitv/React-Portfolio?color=gold&style=for-the-badge) ![GitHub language count](https://img.shields.io/github/languages/count/prabjitv/React-Portfolio?color=green&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/prabjitv/React-Portfolio?color=red&style=for-the-badge)
 
 ---
 
