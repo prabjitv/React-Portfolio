@@ -1,5 +1,5 @@
 import React from 'react';
-import { SvgIcon } from '@material-ui/core';
+// import { SvgIcon } from '@material-ui/core';
 import { Grid, Icon, Link } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 

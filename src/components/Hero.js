@@ -7,6 +7,7 @@ import Link from '@material-ui/core/Link';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Jumbotron } from 'react-bootstrap';
 
 
 
@@ -40,28 +41,21 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Footer() {
+export default function Hero(props) {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <CssBaseline />
-      <footer className={classes.footer}>
-        <Container maxWidth="sm" fluid={true}>
-          <Row className="border-top justify-content-between p-3">
-            <Col className="p-0" md={3} sm={12}>
-              Prabjit Virdee
-            </Col>
-            <Col className="p-0 d-flex justify-content-end" md={3}>
-              Site made by Prab
-            </Col>
+    <Jumbotron className="bg-transparent jumbotron-fluid p-0">
+      <Container fluid={true}>
+        <Row className="justify-content-center py-5">
+          <Col sm={12} md={9} >
+            {props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1>}
+            {props.subTitle && <h5 className="display-4 font-weight-light">{props.subTitle}</h5>}
+            {props.text && <h5 className="lead font-weight-light">{props.text}</h5>}
+          </Col>
+        </Row>
+      </Container>
 
-          </Row>
-
-          {/* <Typography variant="body1">More to come</Typography>
-          <Copyright /> */}
-        </Container>
-      </footer>
-    </div>
+    </Jumbotron>
   );
 }
