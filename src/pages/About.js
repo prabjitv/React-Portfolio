@@ -4,8 +4,8 @@ import { Header, Project, Footer } from "../components";
 function About() {
   return (
     <div className="App">
-      <div className="viewheight">
       <div className="about">
+        <div className="viewheight">
           hello
       </div>
       </div>

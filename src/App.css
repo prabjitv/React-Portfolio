@@ -2,10 +2,6 @@
 box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -16,17 +12,12 @@ box-sizing: border-box;
 .App-header {
   /* background-color: #7143a5; */
   /* color: white; */
-  /* min-height: 100vh; */
+  min-height: 100vh;
   display: flex;
-  
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: #fc27bc;
 }
 
 @keyframes App-logo-spin {
@@ -42,12 +33,12 @@ box-sizing: border-box;
   height: 100vh;
 }
 
-.home, .contact {
+.about, .nav {
   background-color: #dddddd;
   color: #222222;
 }
 
-.about {
+.home, .contact {
   background-color: #222222;
   color: #dddddd;
 }

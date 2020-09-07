@@ -24,8 +24,8 @@ class App extends React.Component {
       ],
       home: {
         title: 'Genuine Connenction',
-        subTitle: 'Projects serving my community',
-        text: 'See my work below'
+        subTitle: 'Mixing Purpose with Passion',
+        text: 'Check out my work'
       },
       about: {
         title: 'About Me'
@@ -41,18 +41,19 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p-0" fluid={true}>
-
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Prabjit Virdee</Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbar-toggle" className="border-0" />
-            <Navbar.Collapse id="navbar-toggle">
-              <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+          {/* <div className="nav"> */}
+            <Navbar className="border-bottom" bg="transparent" expand="lg">
+              <Navbar.Brand>Prabjit Virdee</Navbar.Brand>
+              <Navbar.Toggle aria-controls="navbar-toggle" className="border-0" />
+              <Navbar.Collapse id="navbar-toggle">
+                <Nav className="ml-auto">
+                  <Link className="nav-link" to="/">Home</Link>
+                  <Link className="nav-link" to="/about">About</Link>
+                  <Link className="nav-link" to="/contact">Contact</Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
+          {/* </div> */}
           <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/" render={() => <About title={this.state.about.title} />} />
           <Route path="/" render={() => <Contact title={this.state.contact.title} />} />
