@@ -6,8 +6,12 @@ function About() {
     <div className="App">
       <div className="about">
         <div className="viewheight">
-          hello
-      </div>
+          <div className="aboutbox">
+            <div className="statement">
+              {/* <h1>who am I?</h1> */}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

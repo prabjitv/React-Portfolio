@@ -8,7 +8,7 @@ function Contact() {
       <div className="contact">
         <div className="viewheight">
           <div>
-            <Grid container
+            {/* <Grid container
               spacing={1}
               justify="center"
             >
@@ -44,7 +44,7 @@ function Contact() {
                   </Link>
                 </Icon>
               </Grid>
-            </Grid>
+            </Grid> */}
           </div>
         </div>
       </div>

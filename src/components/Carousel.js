@@ -16,25 +16,31 @@ class Carousel extends React.Component {
         {
           id: 0,
           title: 'Swaddle',
-          subTitle: 'Learn Your Child\'s Habits',
+          subTitle: 'Learn Your Child\'s Habits! For this project, the team wanted to help new parents tracks when their baby slept and fed. Additionally, parents can grant a caregiver access to their child\'s data to view and add entries when taking care of each child',
+          tech: "HTML, CSS, JavaScript",
           imgSrc: swaddle,
           link: 'http://www.Swaddle.care',
+          github: "https://github.com/prabjitv/project-kapf",
           selected: false
         },
         {
           id: 1,
           title: 'Cash Map',
-          subTitle: 'Graph Your Money',
+          subTitle: 'Graph Your Money! The three of us needed a way to keep track of our incoming and outgoing expenses. In this application we let users make an account and enter expense information and chart it for users to see their spending habits.',
+          tech: "HTML, CSS, JavaScript",
           imgSrc: cashMap,
           link: 'https://secure-river-88188.herokuapp.com/',
+          github: "https://github.com/prabjitv/Tracking-Expenses-Project",
           selected: false
         },
         {
           id: 2,
           title: 'Recipe Search',
-          subTitle: 'Pair Up Food and Drinks',
+          subTitle: 'Pair Up Food and Drinks! In my very first project, we used HTML, CSS, and JavaScript to let users search for recipes to cocktails and meals. Users are able to save recipes they like to refer to later while they\'re cooking',
+          tech: "HTML, CSS, JavaScript",
           imgSrc: foodPairing,
           link: 'https://lvarnum.github.io/Recipe-Search/',
+          github: "https://github.com/prabjitv/Recipe-Search",
           selected: false
         },
       ]

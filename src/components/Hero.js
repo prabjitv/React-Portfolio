@@ -55,7 +55,6 @@ export default function Hero(props) {
           </Col>
         </Row>
       </Container>
-
     </Jumbotron>
   );
 }

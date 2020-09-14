@@ -8,8 +8,10 @@ const style = useSpring({opacity: 1, from: {opacity: 0}});
 
   return(
   <animated.div className="g-card-info" style={style}>
-    <p className="g-card-title">{props.title}</p>
-    <p className="g-card-sub-title">{props.subTitle}</p>
+    <h1 className="g-card-title">{props.title}</h1>
+    <h5 className="g-card-sub-title">{props.subTitle}</h5>
+    <h5 >{props.tech}</h5>
+    <h5 className="g-card-sub-title">{props.github}</h5>
     <a href={props.link} target="_blank" rel="noopener noreferrer">View</a>
   </animated.div>
 )
