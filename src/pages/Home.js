@@ -8,7 +8,7 @@ function Home(props) {
       <div className="home">
         <header className="App-header">
           <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
-          <Carousel />
+          {/* <Carousel /> */}
         </header>
         </div>
       </div>

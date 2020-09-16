@@ -23,9 +23,9 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' },
       ],
       home: {
-        title: 'Genuine Connenction',
-        subTitle: 'Mixing Purpose with Passion',
-        text: 'Check out my work'
+        title: 'Prabjit Virdee',
+        subTitle: 'Tucson based Web Developer and UI/UX Designer',
+        text: 'Recent work'
       },
       about: {
         title: 'About Me'
@@ -42,17 +42,17 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           {/* <div className="nav"> */}
-            <Navbar className="border-bottom" bg="transparent" expand="lg">
+            {/* <Navbar className="border-bottom" bg="transparent" expand="lg">
               <Navbar.Brand>Prabjit Virdee</Navbar.Brand>
               <Navbar.Toggle aria-controls="navbar-toggle" className="border-0" />
               <Navbar.Collapse id="navbar-toggle">
                 <Nav className="ml-auto">
-                  {/* <Link className="nav-link" to="/">Home</Link>
+                  <Link className="nav-link" to="/">Home</Link>
                   <Link className="nav-link" to="/about">About</Link>
-                  <Link className="nav-link" to="/contact">Contact</Link> */}
+                  <Link className="nav-link" to="/contact">Contact</Link>
                 </Nav>
               </Navbar.Collapse>
-            </Navbar>
+            </Navbar> */}
           {/* </div> */}
           <Route path="/" exact render={() => <Home title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/" render={() => <About title={this.state.about.title} />} />

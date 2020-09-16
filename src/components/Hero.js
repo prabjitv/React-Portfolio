@@ -47,12 +47,45 @@ export default function Hero(props) {
   return (
     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
       <Container fluid={true}>
-        <Row className="justify-content-center py-5">
-          <Col sm={12} md={9} >
-            {props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1>}
+      <Row 
+        // className="textimagespacing"
+        className="justify-content-start d-flex align-items-center"
+        >
+          {/* <Col
+            sm={12} md={6}
+          >
+            {props.title && <h1 className="display-2 font-weight-bolder">{props.title}</h1>}
             {props.subTitle && <h5 className="display-4 font-weight-light">{props.subTitle}</h5>}
             {props.text && <h5 className="lead font-weight-light">{props.text}</h5>}
+          </Col> */}
+          <Col
+          className=""
+            xs={6} sm={5} md={4} lg={3}
+          >
+            <div className="imageholder">
+              <img className="portrait" src="/prab.portrait2.png" />
+            </div>
           </Col>
+          <Col
+            xs={5} 
+            // sm={6} md={4} lg={3}
+            >
+            {props.title && <h1 className="display-2 font-weight-light">{props.title}</h1>}
+            {props.subTitle && <h5 className="display-5 font-weight-bold">{props.subTitle}</h5>}
+          </Col>
+
+        </Row>
+        <Row 
+        // className="textimagespacing"
+        className="justify-content-center "
+        >
+          {/* <Col
+            sm={3} md={3}
+          >
+            <div className="imageholder">
+              <img className="portrait" src="/prab.portrait2.png" />
+            </div>
+          </Col> */}
         </Row>
       </Container>
     </Jumbotron>

@@ -1,5 +1,8 @@
 * {
 box-sizing: border-box;
+
+  padding: 0px;
+  margin: 0px;
 }
 
 
@@ -13,9 +16,20 @@ box-sizing: border-box;
   /* background-color: #7143a5; */
   /* color: white; */
   min-height: 100vh;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-prabinfo {
+  /* background-color: #7143a5; */
+  /* color: white; */
+  min-height: 100vh;
+  /* display: flex; */
+  flex-direction: column;
+  /* align-items: center; */
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
@@ -59,4 +73,16 @@ a:hover
 
 .aboutbox  {
   background-color: aqua;
+}
+
+.portrait {
+  width: 100%;
+  margin: 50px;
+  opacity: 0.5;
+}
+
+.textimagespacing {
+  justify-content: space-evenly;
+  margin: 20px;
+  padding: 20px;
 }
