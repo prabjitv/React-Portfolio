@@ -47,9 +47,9 @@ export default function Hero(props) {
   return (
     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
       <Container fluid={true}>
-      <Row 
-        // className="textimagespacing"
-        className="justify-content-start d-flex align-items-center"
+        <Row
+          // className="textimagespacing"
+          className="justify-content-start d-flex align-items-center"
         >
           {/* <Col
             sm={12} md={6}
@@ -59,7 +59,7 @@ export default function Hero(props) {
             {props.text && <h5 className="lead font-weight-light">{props.text}</h5>}
           </Col> */}
           <Col
-          className=""
+            className=""
             xs={6} sm={5} md={4} lg={3}
           >
             <div className="imageholder">
@@ -67,17 +67,17 @@ export default function Hero(props) {
             </div>
           </Col>
           <Col
-            xs={5} 
-            // sm={6} md={4} lg={3}
-            >
+            xs={5}
+          // sm={6} md={4} lg={3}
+          >
             {props.title && <h1 className="display-2 font-weight-light">{props.title}</h1>}
             {props.subTitle && <h5 className="display-5 font-weight-bold">{props.subTitle}</h5>}
           </Col>
 
         </Row>
-        <Row 
-        // className="textimagespacing"
-        className="justify-content-center "
+        <Row
+          // className="textimagespacing"
+          className="justify-content-center "
         >
           {/* <Col
             sm={3} md={3}
@@ -86,6 +86,21 @@ export default function Hero(props) {
               <img className="portrait" src="/prab.portrait2.png" />
             </div>
           </Col> */}
+        </Row>
+        <Row
+          className="justify-content-end align-items-end"
+        >
+          <Col
+            xs={3}
+            className="justify-content-end align-items-end"
+          >
+            <div
+            >
+              <img className="downarrow" src="/down-arrow-8-458425.png" />
+              scroll
+            </div>
+          </Col>
+
         </Row>
       </Container>
     </Jumbotron>

@@ -81,8 +81,23 @@ a:hover
   opacity: 0.5;
 }
 
+.downarrow {
+  width: 10%;
+  background-color: #dddddd;
+  margin: 50px;
+  border-radius: 100px;
+}
+
 .textimagespacing {
   justify-content: space-evenly;
   margin: 20px;
   padding: 20px;
+}
+
+.projectsheadingtitle {
+  margin: 50px;
+}
+
+.projectsheading {
+  justify-content: center;
 }

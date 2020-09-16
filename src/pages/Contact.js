@@ -2,12 +2,48 @@ import React from "react";
 import { Header, Project, Footer } from "../components";
 import { Grid, Icon, Link } from '@material-ui/core';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 function Contact() {
   return (
     <div className="App">
       <div className="contact">
         <div className="viewheight">
           <div>
+            <Container fluid={true}>
+              <Row
+                className="projectsheading justify-content-center">
+                <Col
+                  className="projectsheadingtitle"
+                >
+                  <h1>Contact Me</h1>
+                </Col>
+              </Row>
+              <Row
+                className="projectsheading justify-content-center">
+                <Col
+                  className="projectsheadingtitle justify-content-center"
+                >
+                  <a href="https://www.linkedin.com/in/prabjit/">Linked In</a>
+                </Col>
+              </Row>
+              <Row className="projectsheading justify-content-center">
+              <Col
+                  className="projectsheadingtitle justify-content-center"
+                >
+                  <a href="https://github.com/prabjitv">Github</a>
+                </Col>
+              </Row>
+              <Row className="projectsheading justify-content-center">
+              <Col
+                  className="projectsheadingtitle justify-content-center"
+                >
+                </Col>
+              </Row>
+            </Container>
+
             {/* <Grid container
               spacing={1}
               justify="center"
